@@ -1,0 +1,36 @@
+#[allow(dead_code, non_snake_case)]
+
+pub mod Fore {
+    pub fn black() {
+    	println!("\u{001b}[30m");
+    }
+    pub fn red() {
+    	println!("\u{001b}[31m");
+    }
+    pub fn blue() {
+	println!("u\{001b}32m"};
+    }
+    pub fn 
+}
+
+pub mod Back {
+
+}
+
+pub mod Move {
+
+    pub fn up(n: u32) {
+	println!("\u{001b}[{}A", n.to_string());
+    }
+    pub fn right(n: u32) {
+        println!("\u{001b}[{}C", n.to_string());
+    }
+    pub fn down(n: u32) {
+        println!("\x001b[{}B", n.to_string());
+    }
+    pub fn left(n: u32) {
+        println!("\x001b[{}D", n.to_string());
+    }
+
+
+}
